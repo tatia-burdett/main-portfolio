@@ -1,4 +1,12 @@
-app-main {
-  margin-top: 90px;
+.app-full-screen {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  padding-bottom: 75px;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

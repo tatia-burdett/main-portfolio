@@ -43,12 +43,14 @@ class App extends React.Component {
   render() {
     return (
       <div className='app-container'>
-        <nav className='app-nav'>
-          <NavBar />
-        </nav>
-        <main className='app-main'>
-          {this.renderRoutes()}
-        </main>
+        <div className='app-full-screen'>
+          <nav className='app-nav'>
+            <NavBar />
+          </nav>
+          <main className='app-main'>
+            {this.renderRoutes()}
+          </main>
+        </div>
         <footer>
           <Footer />
         </footer>
