@@ -41,14 +41,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <nav>
+      <div className='app-container'>
+        <nav className='app-nav'>
           <NavBar />
         </nav>
-        <main>
+        <main className='app-main'>
           {this.renderRoutes()}
         </main>
-        <footer>
+        <footer className='app-footer'>
           {/* Need to make footer with LinkedIn, Github links */}
         </footer>
       </div>
