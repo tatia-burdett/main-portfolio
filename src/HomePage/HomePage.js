@@ -9,7 +9,8 @@ class HomePage extends React.Component {
       <div className='homepage-container'>
         <header className='homepage-header'>
           <div className='image-container'>
-            <img src={Me} alt='' className='homepage-header-img'/>
+            <h1>I am Tatia Burdett</h1>
+            <p>Full Stack Web Developer</p>
           </div>
         </header>
         <section className='homepage-section'>
