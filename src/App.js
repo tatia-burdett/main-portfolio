@@ -7,6 +7,7 @@ import HomePage from './HomePage/HomePage'
 import About from './About/About'
 import Projects from './Projects/Projects'
 import Photography from './Photography/Photography'
+import Contact from './Contact/Contact'
 
 class App extends React.Component {
 
@@ -29,6 +30,10 @@ class App extends React.Component {
         <Route 
           path='/photography'
           component={Photography}
+        />
+        <Route 
+          path='/contact'
+          component={Contact}
         />
       </Switch>
     )
