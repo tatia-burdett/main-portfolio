@@ -5,6 +5,7 @@ import './App.css'
 import NavBar from './NavBar/NavBar'
 import HomePage from './HomePage/HomePage'
 import About from './About/About'
+import Projects from './Projects/Projects'
 
 class App extends React.Component {
 
@@ -19,6 +20,10 @@ class App extends React.Component {
         <Route 
           path='/about'
           component={About}
+        />
+        <Route 
+          path='/projects'
+          component={Projects}
         />
       </Switch>
     )
