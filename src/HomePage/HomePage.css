@@ -1,3 +1,4 @@
+/* Work on finding the perfect animated gradient */
 .homepage-container {
   background: linear-gradient(-45deg, #F0F600, #BC7C9C, #828E82, #BC7C9C);
   background-size: 400% 400%;
@@ -27,4 +28,6 @@
 .homepage-header-img {
   width: 200px;
   border-radius: 50%;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
