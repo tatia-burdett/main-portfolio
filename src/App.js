@@ -48,9 +48,7 @@ class App extends React.Component {
         <main className='app-main'>
           {this.renderRoutes()}
         </main>
-        <footer className='app-footer'>
-          {/* Need to make footer with LinkedIn, Github links */}
-        </footer>
+        {/* add footer here... */}
       </div>
     )
   }
