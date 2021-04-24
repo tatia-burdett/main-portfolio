@@ -1,12 +1,16 @@
 import React from 'react'
 import './HomePage.css'
 
+import Me from '../images/me.jpg'
+
 class HomePage extends React.Component {
   render() {
     return (
       <div className='homepage-container'>
         <header className='homepage-header'>
-          IMAGE HERE
+          <div className='image-container'>
+            <img src={Me} alt='' className='homepage-header-img'/>
+          </div>
         </header>
         <section className='homepage-section'>
           <h2>Quick Take...</h2>
