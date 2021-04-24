@@ -14,7 +14,10 @@ class HomePage extends React.Component {
         </header>
         <section className='homepage-section'>
           <h2>Quick Take...</h2>
-          <p>I am a semi-nomandic, software developer with a background in nursing. More text here to explain generally who I am and why people should continue to be interested in my page. Short explanation of projects I'm interested in working on, and what I am passionate about in life. What makes me stand out from the rest of the world. Music, photography... a lot about me in a huge paragraph of text.</p>
+          <p>Hello World. I am Tatia Burdett, a full stack developer who lives life nomadically, currently living in Seattle. I am passionate about mental and physical health, sustainability, and personal growth. I am interested in helping to create a more accessible world, while inspiring people to make healthy choices and create lasting changes in our society. Technically speaking, I am experienced with HTML5, CSS, JavaScript ES6, jQuery, React, Express, PostgreSQL, and Node.js.</p>
+          <blockquote>
+            To be alive is to be in a constant state of change, the learning doesn't stop until I do.
+          </blockquote>
         </section>
       </div>
     )
