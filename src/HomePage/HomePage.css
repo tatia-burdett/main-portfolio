@@ -50,3 +50,8 @@
   line-height: 1.5;
   padding: 10px 20px;
 }
+
+.homepage-section blockquote {
+  font-style: italic;
+  color: #222327;
+}
