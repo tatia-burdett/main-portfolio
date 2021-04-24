@@ -8,10 +8,18 @@ class NavBar extends React.Component {
       <div className='navbar-container'>
         <h1><Link to='/' className='navbar-header'>TB</Link></h1>
         <ul className='navbar-menu'>
-          <li className='navbar-list-item'>About</li>
-          <li className='navbar-list-item'>Projects</li>
-          <li className='navbar-list-item'>Photography</li>
-          <li className='navbar-list-item'>Contact</li>
+          <li className='navbar-list-item'>
+            <Link to='/about'>About</Link>
+          </li>
+          <li className='navbar-list-item'>
+            <Link to='/projects'>Projects</Link>
+          </li>
+          <li className='navbar-list-item'>
+            <Link to='/photography'>Photography</Link>
+          </li>
+          <li className='navbar-list-item'>
+            <Link to='/contact'>Contact</Link>
+          </li>
         </ul>
       </div>
     )

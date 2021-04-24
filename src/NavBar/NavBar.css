@@ -35,4 +35,8 @@
   padding-right: 10px; 
 }
 
+.navbar-list-item a {
+  text-decoration: none;
+}
+
 /* Responsive Desktop */
