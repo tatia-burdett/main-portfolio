@@ -28,6 +28,9 @@ class App extends React.Component {
         <main>
           {this.renderRoutes()}
         </main>
+        <footer>
+          {/* Need to make footer with LinkedIn, Github links */}
+        </footer>
       </div>
     )
   }
