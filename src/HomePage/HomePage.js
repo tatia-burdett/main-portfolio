@@ -1,8 +1,6 @@
 import React from 'react'
 import './HomePage.css'
 
-import Me from '../images/me.jpg'
-
 class HomePage extends React.Component {
   render() {
     return (
