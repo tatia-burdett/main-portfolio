@@ -8,6 +8,7 @@ import About from './About/About'
 import Projects from './Projects/Projects'
 import Photography from './Photography/Photography'
 import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 
 class App extends React.Component {
 
@@ -48,7 +49,9 @@ class App extends React.Component {
         <main className='app-main'>
           {this.renderRoutes()}
         </main>
-        {/* add footer here... */}
+        <footer>
+          <Footer />
+        </footer>
       </div>
     )
   }
