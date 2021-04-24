@@ -6,6 +6,7 @@ import NavBar from './NavBar/NavBar'
 import HomePage from './HomePage/HomePage'
 import About from './About/About'
 import Projects from './Projects/Projects'
+import Photography from './Photography/Photography'
 
 class App extends React.Component {
 
@@ -24,6 +25,10 @@ class App extends React.Component {
         <Route 
           path='/projects'
           component={Projects}
+        />
+        <Route 
+          path='/photography'
+          component={Photography}
         />
       </Switch>
     )
