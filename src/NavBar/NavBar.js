@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './NavBar.css'
 
 class NavBar extends React.Component {
   render() {
     return (
       <div className='navbar-container'>
-        <h1 className='navbar-header'>TB</h1>
+        <h1><Link to='/' className='navbar-header'>TB</Link></h1>
         <ul className='navbar-menu'>
           <li className='navbar-list-item'>About</li>
           <li className='navbar-list-item'>Projects</li>
