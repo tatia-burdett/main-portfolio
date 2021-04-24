@@ -1,9 +1,6 @@
 /* Mobile First */
 
 .navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #40434E;
   position: fixed;
   top: 0;
@@ -12,32 +9,42 @@
   z-index:1;
 }
 
-.navbar-header {
-  padding-left: 20px;
+/* Hamburger Menu */
+
+.navbar-hamburger {
+  position: fixed;
+  top: 0;
+}
+
+.navbar-hamburger input {
+  display: none;
+}
+
+.navbar-hamburger label {
+  display: inline-block; 
+  color: white;
+  font-style: normal;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.navbar-hamburger-items a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #333;
+  background-color: #40434E;
   color: #F5F0F6;
-  font-size: 20px;
-  margin: 0;
   text-decoration: none;
-  white-space: nowrap;
+  padding: 20px;
 }
 
-/* Need to make hamburger menu for links... */
-
-.navbar-menu { 
-  display: flex;
-  list-style-type: none;
-  padding-right: 18px;
-  padding-left: 0;
-  padding-top: 4px;
+.navbar-hamburger-items {
+  display: none;
 }
 
-.navbar-list-item {
-  padding-right: 10px; 
-}
-
-.navbar-list-item a {
-  text-decoration: none;
-  color: #F5F0F6;
+.navbar-hamburger input:checked ~ .navbar-hamburger-items {
+  display: block;
 }
 
 /* Responsive Desktop */
