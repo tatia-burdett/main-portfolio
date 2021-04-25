@@ -23,9 +23,6 @@ class ProjectPage extends React.Component {
 
     return (
       <div className='project-page-container'>
-        <button onClick={() => this.props.history.goBack()}>
-          Go Back
-        </button>
         <h1>{proj.title}</h1>
         <ul>
           <li>{proj.github}</li>
@@ -33,10 +30,13 @@ class ProjectPage extends React.Component {
           <li>{proj.liveLink}</li>
         </ul>
         <p>{proj.description}</p>
-        <section>
+        <section className='image-section'>
           {proj.img1}
           {proj.img2}
         </section>
+        <button onClick={() => this.props.history.goBack()}>
+          Go Back
+        </button>
       </div>
     )
   }
