@@ -6,3 +6,47 @@
 .contact-container h1 {
   text-align: center;
 }
+
+.contact-section {
+  padding: 20px;
+}
+
+form {
+	padding-right: 6px;
+}
+
+form input {
+	height: 24px;
+}
+
+form input, form textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	border:	none;
+}
+
+form textarea {
+	height: 160px;
+}
+
+form button {
+	font-family: 'Montserrat', sans-serif;
+	color: #F3F0ED;
+	border: none;
+	padding: 7px;
+	border-radius: 5px;
+	width: 7rem;
+	background-color: #7180ED;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+form button:hover {
+	cursor: pointer;
+	background-color: #7f8cee;
+}
+
+form label {
+	/* color: #F3F0ED;
+	font-family: 'Montserrat', sans-serif; */
+}
