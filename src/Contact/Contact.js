@@ -1,11 +1,18 @@
 import React from 'react'
+import './Contact.css'
 
 class Contact extends React.Component {
   render() {
     return (
       <div className='contact-container'>
-        <h2>Contact</h2>
-        Contact Form Here
+        <h1>Contact</h1>
+        <section className='contact-section'>
+          <form>
+            <label>Contact Me</label>
+            <input />
+            <button>Submit</button>
+          </form>
+        </section>
       </div>
     )
   }
