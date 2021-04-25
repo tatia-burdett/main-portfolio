@@ -1,3 +1,5 @@
+/* Mobile First | Responsive */
+
 .homepage-header {
   height: 100vh;
   display: flex;
@@ -43,4 +45,33 @@
   font-style: italic;
   color: #1d1d1f;
   font-size: 18px;
+}
+
+/* Desktop | Responsive */
+
+@media all and (min-width: 700px) {
+  .homepage-header h1 {
+    font-size: 75px;
+  }
+
+  .homepage-header h2 {
+    font-size: 30px;
+  }
+
+  .homepage-section {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .homepage-section h2 {
+    font-size: 40px;
+  }
+
+  .homepage-section p {
+    font-size: 24px;
+  }
+
+  .homepage-section blockquote {
+    text-align: center;
+  }
 }
