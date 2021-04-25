@@ -1,4 +1,4 @@
-/* Mobile First */
+/* Mobile First | Responsive */
 
 .navbar-container {
   background-color: #40434E;
@@ -47,4 +47,36 @@
   display: block;
 }
 
-/* Responsive Desktop */
+/* Desktop | Responsive */
+
+@media all and (min-width: 700px) {
+
+  .navbar-hamburger {
+    width: 100%;
+  }
+
+  .navbar-hamburger label, input {
+    display: none;
+    position: inherit;
+    top: auto;
+  }
+
+  .navbar-hamburger-items {
+    display: flex;
+    text-align: center;
+  }
+
+  .navbar-hamburger-items a {
+    font-size: 18px;
+  }
+
+  .navbar-hamburger-items a:hover, .navbar-hamburger-items a:focus {
+    color: #BC7C9C;
+    font-weight: 500;
+  }
+
+  .navbar-hamburger-items a:active {
+    color: #F0F600;
+    font-weight: 500;
+  }
+}
