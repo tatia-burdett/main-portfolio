@@ -1,0 +1,41 @@
+/* Mobile First | Responsive */
+
+.single-project-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-project a {
+  text-decoration: none;
+  color: black;
+}
+
+.single-project a:focus {
+  text-decoration: none;
+  color: #40434E;
+}
+
+.single-project a h2 {
+  font-size: 30px;
+}
+
+
+/* Desktop | Responsive */
+
+@media all and (min-width: 700px) {
+  .single-project a {
+    cursor: pointer;
+  }
+
+  .single-project a:hover {
+    color: #40434E;
+  }
+
+  .single-project a:active {
+    color: #F0F600;
+  }
+
+  .single-project a h2 {
+    font-size: 40px;
+  }
+}

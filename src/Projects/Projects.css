@@ -18,3 +18,14 @@
 }
 
 /* Desktop | Responsive */
+
+@media all and (min-width: 700px) {
+  .projects-container h1 {
+    font-size: 60px;
+  }
+
+  .project-section-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
