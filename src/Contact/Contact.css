@@ -1,10 +1,13 @@
+/* Mobile First | Responsive */
+
 .contact-container {
   margin-top: 50px;
   padding-top: 20px;
 }
 
 .contact-container h1 {
-  text-align: center;
+	text-align: center;
+	font-size: 48px;
 }
 
 .contact-section {
@@ -15,8 +18,14 @@ form {
 	padding-right: 6px;
 }
 
+form label {
+	font-size: 20px;
+}
+
 form input {
-	height: 24px;
+	height: 35px;
+	margin-top: 10px;
+	font-size: 20px;
 }
 
 form input, form textarea {
@@ -28,6 +37,8 @@ form input, form textarea {
 
 form textarea {
 	height: 160px;
+	margin-top: 10px;
+	font-size: 20px;
 }
 
 form button {
@@ -39,6 +50,7 @@ form button {
 	width: 7rem;
 	background-color: #7180ED;
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	font-size: 20px;
 }
 
 form button:hover {
@@ -46,7 +58,15 @@ form button:hover {
 	background-color: #7f8cee;
 }
 
-form label {
-	/* color: #F3F0ED;
-	font-family: 'Montserrat', sans-serif; */
+/* Desktop | Responsive */
+
+@media all and (min-width: 700px) {
+	.contact-container h1 {
+		font-size: 60px;
+	}
+
+	.contact-section {
+		width: 50%;
+		margin: 0 auto;
+	}
 }

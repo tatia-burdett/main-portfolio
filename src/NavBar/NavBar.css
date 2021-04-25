@@ -55,7 +55,7 @@
     width: 100%;
   }
 
-  .navbar-hamburger label, input {
+  .navbar-hamburger label, .navbar-hamurger input {
     display: none;
     position: inherit;
     top: auto;
