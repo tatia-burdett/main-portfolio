@@ -6,10 +6,8 @@ class HomePage extends React.Component {
     return (
       <div className='homepage-container'>
         <header className='homepage-header'>
-          <div className='image-container'>
-            <h1>I am Tatia Burdett</h1>
-            <p>Full Stack Web Developer</p>
-          </div>
+          <h1>Hello, I am Tatia Burdett</h1>
+          <h2>A Full Stack Web Developer</h2>
         </header>
         <section className='homepage-section'>
           <h2>Quick Take...</h2>

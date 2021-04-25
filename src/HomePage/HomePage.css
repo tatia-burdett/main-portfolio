@@ -1,12 +1,23 @@
 .homepage-header {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 20px;
+}
+
+.homepage-header h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.homepage-header h2 {
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 .homepage-section {
-  background: rgba( 188, 124, 156, 0.25 );
+  background: rgba( 70, 73, 84, 0.5 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 10.5px );
   -webkit-backdrop-filter: blur( 10.5px );
@@ -17,15 +28,19 @@
 
 .homepage-section h2 {
   text-align: center;
+  font-size: 35px;
+  letter-spacing: 5px;
 }
 
 .homepage-section p {
   margin: 0;
   line-height: 1.5;
   padding: 10px 20px;
+  font-size: 20px;
 }
 
 .homepage-section blockquote {
   font-style: italic;
-  color: #222327;
+  color: #1d1d1f;
+  font-size: 18px;
 }
