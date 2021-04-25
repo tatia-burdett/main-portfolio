@@ -13,8 +13,9 @@ class SingleProject extends React.Component {
       <section className='single-project-section'>
         {project.map(p => 
           <div className='single-project' key={p.id || ''}>
-            <h2>{p.title}</h2>
-            <Link to={`/projects/${p.id}`}>Go</Link>
+            <Link to={`/projects/${p.id}`}> 
+              <h2>{p.title}</h2>
+            </Link>
           </div>  
         )}
       </section>

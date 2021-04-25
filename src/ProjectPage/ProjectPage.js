@@ -24,6 +24,9 @@ class ProjectPage extends React.Component {
     return (
       <div className='project-page-container'>
         <h1>{proj.title}</h1>
+        <button onClick={() => this.props.history.goBack()}>
+          Go Back
+        </button>
       </div>
     )
   }
