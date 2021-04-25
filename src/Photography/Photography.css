@@ -18,9 +18,25 @@
   padding:20px;
 }
 
+/* .photography {
+  width: 100%;
+  padding-bottom: 20px;
+} */
+
 .photography {
   width: 100%;
   padding-bottom: 20px;
+  filter: grayscale(90%);
+  opacity: 0.6;
+  -webkit-transition: filter 250ms ease-out 500ms;
+  -moz-transition: filter 250ms ease-out 500ms;
+  -o-transition: filter 250ms ease-out 500ms;
+  transition: filter 250ms ease-out 500ms;
+}
+
+.photography:hover, .photography:focus {
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 /* Desktop | Responsive */
@@ -36,19 +52,5 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 2px;
-  }
-
-  .photography {
-    filter: grayscale(90%);
-    opacity: 0.6;
-    -webkit-transition: filter 250ms ease-out 500ms;
-    -moz-transition: filter 250ms ease-out 500ms;
-    -o-transition: filter 250ms ease-out 500ms;
-    transition: filter 250ms ease-out 500ms;
-  }
-
-  .photography:hover, .photography:focus {
-    filter: grayscale(0%);
-    opacity: 1;
   }
 }
