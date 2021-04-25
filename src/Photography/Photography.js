@@ -1,4 +1,5 @@
 import React from 'react'
+import './Photography.css'
 
 class Photography extends React.Component {
   render() {
