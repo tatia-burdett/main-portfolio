@@ -5,8 +5,8 @@ class Photography extends React.Component {
   render() {
     return (
       <div className='photography-container'>
-        <h2>Photography</h2>
-        <section>
+        <h1>Photography</h1>
+        <section className='photography-section'>
           Grid of all photos, may organize better at some point...
         </section>
       </div>
