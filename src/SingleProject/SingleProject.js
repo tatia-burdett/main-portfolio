@@ -9,8 +9,6 @@ class SingleProject extends React.Component {
   render() {
     const project = this.context.PROJECTS
 
-    console.log('Hello!')
-
     return (
       <section className='single-project-section'>
         {project.map(p => 
