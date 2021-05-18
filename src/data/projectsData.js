@@ -2,10 +2,22 @@ import landingheader from '../images/landingheader.png'
 import posts from '../images/posts.png'
 import currentWeather from '../images/current-weather.png'
 import forecast from '../images/forecast.png'
+import lodgeLanding from '../images/ll-landing.png'
+import timeline from '../images/ll-timeline.png'
 
 const projectsArray = [
   {
     id: 1,
+    title: 'LodgeLog',
+    github: <a href="https://github.com/tatia-burdett/lodgelog-app">Github App Repo</a>,
+    githubAPI: <a href="https://github.com/tatia-burdett/lodgelog-api">Github Server Repo</a>,
+    liveLink: <a href="https://lodgelog-app-tatia-burdett.vercel.app/">Live Link</a>,
+    img1: <img src={lodgeLanding} alt='' className='proj-image'/>,
+    img2: <img src={timeline} alt='' className='proj-image'/>,
+    description: 'Noteful is a web app, created with React, that allows users to create folders and cards. Each card is designated a folder, and clicking the folder will sort the cards by those that are included with the given folder. A server and database was built as the backend for this project.'
+  },
+  {
+    id: 2,
     title: 'Hello World - Group Journal',
     github: <a href="https://github.com/tatia-burdett/hello-world-app">Github App Repo</a>,
     githubAPI: <a href="https://github.com/tatia-burdett/hello-world-api">Github Server Repo</a>,
@@ -15,7 +27,7 @@ const projectsArray = [
     description: 'Hello World is a client-side React web app that allows users to view and post comments. This project utilizes a GET and POST endpoint only. A nickname, option location, category and some content are received from the user, and a date is created and formatted using react-moment.'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Simply Weather',
     github: <a href="https://github.com/tatia-burdett/simply-weather">Github App Repo</a>,
     githubAPI: 'N/A',
@@ -23,17 +35,7 @@ const projectsArray = [
     img1: <img src={currentWeather} alt='' className='proj-image'/>,
     img2: <img src={forecast} alt='' className='proj-image'/>,
     description: 'The IP address is retrieved from the user to find their current location. Then the weather API uses the zipcode to gather data on the current weather in that location. Users can search for weather in a different city by zipcode or city name. Finally, a 5 day forecast is offered showing a brief snapshot (temperature and conditions) of these days.'
-  },
-  {
-    id: 3,
-    title: 'Noteful',
-    github: <a href="https://github.com/tatia-burdett/noteful">Github App Repo</a>,
-    githubAPI: <a href="https://github.com/tatia-burdett/noteful-server">Github Server Repo</a>,
-    liveLink: <a href="https://noteful-ivory-nu.vercel.app/">Live Link</a>,
-    img1: null,
-    img2: null,
-    description: 'Noteful is a web app, created with React, that allows users to create folders and cards. Each card is designated a folder, and clicking the folder will sort the cards by those that are included with the given folder. A server and database was built as the backend for this project.'
-  },
+  }
 ]
 
 export default projectsArray
