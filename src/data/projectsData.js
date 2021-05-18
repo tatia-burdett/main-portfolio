@@ -14,7 +14,7 @@ const projectsArray = [
     liveLink: <a href="https://lodgelog-app-tatia-burdett.vercel.app/">Live Link</a>,
     img1: <img src={lodgeLanding} alt='' className='proj-image'/>,
     img2: <img src={timeline} alt='' className='proj-image'/>,
-    description: 'Noteful is a web app, created with React, that allows users to create folders and cards. Each card is designated a folder, and clicking the folder will sort the cards by those that are included with the given folder. A server and database was built as the backend for this project.'
+    description: 'LodgeLog is a web app that allows users to save personal previous address history. Users can create an account, log in, and store personal data.'
   },
   {
     id: 2,
