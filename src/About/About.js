@@ -16,15 +16,15 @@ class About extends React.Component {
             <img src={Me} alt='blonde girl, blue eyes, dark background' className='image'/>
             <p>I first touched code when I was 15 years old (it was only HTML... shh!). This sparked a fire of curiosity in me, that kept me coming back. "Could I do this?", I always asked myself.</p>
             <p>I ended up pursuing nursing, and worked in a variety of health care facilties all over the US. Still, my passion for coding remained. I spent my weekends messing around learning CSS, and later on, JavaScript.</p>
-            <p>Flash toward to 2020 and a global pandemic. I decided to study to become a software developer full time, while traveling the country with my travel-nurse husband.</p>
+            <p>Flash toward to 2020, I made the decision to take the leap and pursue coding full time.</p>
             <p>After a few months of independent study, I joined Bloc's Full Stack Flex Bootcamp (now currently owned by Thinkful). This bootcamp gave me the direction and mentorship I needed to stay on track, while challenging me to push myself in ways I haven't before.</p>
           </section>
 
           <section className='about-section'>
-            <h2>Travel</h2>
+            <h2>Adventure</h2>
             <img src={Kenji} alt='' className='image' />
-            <p>I am a dual citizen (United States and Lithuania) and was raised moving at least once nearly every year. Some could say I'm addicted!</p>
             <p>I am passionate about seeing and experiencing all the different ways life can be lived. I allow this curiosity of the world to creep into my development and effect how and what I code.</p>
+            <p>When I'm not coding, I'm usually creating music, learning more about photography, doing yoga, and exploring the world as much as humanly possbile.</p>
           </section>
 
           <section className='about-section'>
