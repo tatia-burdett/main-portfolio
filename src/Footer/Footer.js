@@ -6,7 +6,7 @@ class Footer extends React.Component {
     return (
       <div className='footer-container'>
         <p>Copyright &#169; 2021</p>
-        <p>Created by Tatia Burdett</p>
+        <p>tatiaburdett@gmail.com</p>
         <ul>
           <li><a href='https://www.linkedin.com/in/tatjanaburdett/'>LinkedIn</a></li>
           <li><a href='https://github.com/tatia-burdett'>GitHub</a></li>
