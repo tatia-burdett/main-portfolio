@@ -15,6 +15,7 @@ class SingleProject extends React.Component {
           <div className='single-project' key={p.id || ''}>
             <Link to={`/projects/${p.id}`}> 
               <h2>{p.title}</h2>
+              <p>{p.tech}</p>
               <p>{p.description}</p>
               {p.img1}
             </Link>
