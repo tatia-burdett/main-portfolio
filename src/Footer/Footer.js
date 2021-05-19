@@ -8,7 +8,7 @@ class Footer extends React.Component {
     return (
       <div className='footer-container'>
         <p>Copyright &#169; 2021</p>
-        <p>tatiaburdett@gmail.com</p>
+        <p><a href="mailto:tatiaburdett@gmail.com" className='email'>Email Me</a></p>
         <ul>
           <li>
             <a href='https://www.linkedin.com/in/tatjanaburdett/'>

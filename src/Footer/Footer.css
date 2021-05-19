@@ -40,3 +40,13 @@
 .icon {
   font-size: 24px;
 }
+
+.email {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.email:hover {
+  text-decoration: none;
+  color: #FDE;
+}
