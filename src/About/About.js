@@ -24,7 +24,7 @@ class About extends React.Component {
           <section className='about-section'>
             <h2>Adventure</h2>
             <img src={Kenji} alt='' className='image' />
-            <p>I am passionate about seeing and experiencing all the different ways life can be lived. I allow this curiosity of the world to creep into my development and effect how and what I code.</p>
+            <p>I am passionate about seeing and experiencing all the different ways life can be lived. I allow this curiosity of the world to creep into my development and affect how and what I code.</p>
             <p>When I'm not coding, I'm usually creating music, learning more about photography, doing yoga, and exploring the world as much as humanly possible.</p>
           </section>
 
